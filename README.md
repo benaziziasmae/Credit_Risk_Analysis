@@ -14,7 +14,7 @@ We adopted the following procedure:
 
 ## Resources
 
-- Data source: 
+- Data source: [LoansStat-2019](/LoanStats_2019Q1.csv)
 - Software : Python 3.7.9, Anaconda Navigator 1.9.12, Conda 4.8.4, Jupyter Notebook 6.0.3
 
 
@@ -24,11 +24,13 @@ We adopted the following procedure:
 
 ![balance_accurency_score](/Resources/balance_accurency_score.PNG)
 
+**Confusion Matrix**
+
 ![predict_score_high_low](/Resources/predict_score_high_low.PNG)
 
 **Comments:**
 
-- the balanced accuracy score is 66%
+- The balanced accuracy score is 66%
 - The high_risk precision is about 1% only with 62% sensitivity which makes a F1 of 2% only.
 Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 64%.
 
@@ -51,7 +53,7 @@ Due to the high number of the low_risk population, its precision is almost 100% 
 
 ![smoteen_model](/Resources/smoteen_model.PNG)
 
-
+**Confusion Matrix**
 
 ![smoteen_model2](/Resources/smoteen_model2.PNG)
 
@@ -61,9 +63,20 @@ Due to the high number of the low_risk population, its precision is almost 100% 
 - The high_risk precision is still 1% only with 63% sensitivity which makes a F1 of 1%.
 - Due to the high number of false positives, the low_risk sensitivity is only 40%.
 
+4- Easy Ensemble Classifying
+
 ![ensemble_model](/Resources/ensemble_model.PNG)
 
+**Confusion Matrix**
+
 ![ensemble_model2](/Resources/ensemble_model2.PNG)
+
+- Accuracy Score: 92%
+- Precision High Risk: 7%
+- Precision Low Risk: 100%
+- Recall High Risk: 91%
+- Recall Low Risk: 94%
+
 
 
 
