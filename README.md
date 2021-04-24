@@ -57,7 +57,7 @@ We adopted the following procedure:
 
 **Confusion Matrix**
 
-![undersampling](/Resources/undersampling.PNG)
+![undersampling2](/Resources/undersampling2.PNG)
 
 **Comments:**
 - Accuracy Score: 51%
