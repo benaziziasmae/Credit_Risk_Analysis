@@ -78,14 +78,30 @@ We adopted the following procedure:
 
 **Comments:**
 
-- Accuracy Score: 51%
+- Accuracy Score: 61%
 - Precision High Risk: 1%
 - Precision Low Risk: 100%
-- Recall High Risk: 59%
-- Recall Low Risk: 43%
+- Recall High Risk: 70%
+- Recall Low Risk: 54%
 
 
-**5- Easy Ensemble Classifying**
+**5- Balanced Random Forest Classifying**
+
+![balance_random_forest](/Resources/balance_random_forest.PNG)
+
+**Confusion Matrix**
+
+![balance_random_forest2](/Resources/balance_random_forest2.PNG)
+
+- Accuracy Score: 92%
+- Precision High Risk: 7%
+- Precision Low Risk: 100%
+- Recall High Risk: 91%
+- Recall Low Risk: 94%
+
+
+
+**6- Easy Ensemble Classifying**
 
 ![ensemble_model](/Resources/ensemble_model.PNG)
 
