@@ -20,7 +20,7 @@ We adopted the following procedure:
 
 ## Results and summary 
 
-1- Naive Random Oversampling
+**1- Naive Random Oversampling**
 
 ![balance_accurency_score](/Resources/balance_accurency_score.PNG)
 
@@ -36,7 +36,7 @@ We adopted the following procedure:
 - Recall High Risk: 66%
 - Recall Low Risk: 67%
 
-2- SMOTE Oversampling
+**2- SMOTE Oversampling**
 
 ![smote_model](/Resources/smote_model.PNG)
 
@@ -45,14 +45,29 @@ We adopted the following procedure:
 ![smote_model2](/Resources/smote_model2.PNG)
 
 **Comments:**
-- Accuracy Score: 66.2%
+- Accuracy Score: 51%
 - Precision High Risk: 1%
 - Precision Low Risk: 100%
-- Recall High Risk: 66%
-- Recall Low Risk: 66%
+- Recall High Risk: 59%
+- Recall Low Risk: 43%
+
+**3- Undersampling model**
+
+![undersampling](/Resources/undersampling.PNG)
+
+**Confusion Matrix**
+
+![undersampling](/Resources/undersampling.PNG)
+
+**Comments:**
+- Accuracy Score: 51%
+- Precision High Risk: 1%
+- Precision Low Risk: 100%
+- Recall High Risk: 59%
+- Recall Low Risk: 43%
 
 
-3- ClusterCentroids model
+**3- ClusterCentroids model**
 
 
 ![smoteen_model](/Resources/smoteen_model.PNG)
