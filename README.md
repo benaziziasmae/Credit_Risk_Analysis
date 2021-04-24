@@ -40,3 +40,5 @@ We adopted the following procedure:
 
 ![ensemble_model](/Resources/ensemble_model.PNG)
 
+![ensemble_model2](/Resources/ensemble_model2.PNG)
+
