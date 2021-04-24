@@ -48,8 +48,8 @@ We adopted the following procedure:
 - Accuracy Score: 51%
 - Precision High Risk: 1%
 - Precision Low Risk: 100%
-- Recall High Risk: 59%
-- Recall Low Risk: 43%
+- Recall High Risk: 62%
+- Recall Low Risk: 64%
 
 **3- Undersampling model**
 
@@ -67,7 +67,7 @@ We adopted the following procedure:
 - Recall Low Risk: 43%
 
 
-**3- ClusterCentroids model**
+**4- Smoteen model**
 
 
 ![smoteen_model](/Resources/smoteen_model.PNG)
@@ -78,11 +78,14 @@ We adopted the following procedure:
 
 **Comments:**
 
-- Here the balanced accuracy score is down to about 52%.
-- The high_risk precision is still 1% only with 63% sensitivity which makes a F1 of 1%.
-- Due to the high number of false positives, the low_risk sensitivity is only 40%.
+- Accuracy Score: 51%
+- Precision High Risk: 1%
+- Precision Low Risk: 100%
+- Recall High Risk: 59%
+- Recall Low Risk: 43%
 
-4- Easy Ensemble Classifying
+
+**5- Easy Ensemble Classifying**
 
 ![ensemble_model](/Resources/ensemble_model.PNG)
 
