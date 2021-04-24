@@ -93,11 +93,11 @@ We adopted the following procedure:
 
 ![balance_random_forest2](/Resources/balance_random_forest2.PNG)
 
-- Accuracy Score: 92%
-- Precision High Risk: 7%
+- Accuracy Score: 78%
+- Precision High Risk: 4%
 - Precision Low Risk: 100%
-- Recall High Risk: 91%
-- Recall Low Risk: 94%
+- Recall High Risk: 67%
+- Recall Low Risk: 91%
 
 
 
