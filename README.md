@@ -20,7 +20,7 @@ We adopted the following procedure:
 
 ## Results and summary 
 
-1- RandomOverSample model
+1- Naive Random Oversampling
 
 ![balance_accurency_score](/Resources/balance_accurency_score.PNG)
 
@@ -30,22 +30,26 @@ We adopted the following procedure:
 
 **Comments:**
 
-- The balanced accuracy score is 66%
-- The high_risk precision is about 1% only with 62% sensitivity which makes a F1 of 2% only.
-Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 64%.
+- Accuracy Score: 66%
+- Precision High Risk: 1%
+- Precision Low Risk: 100%
+- Recall High Risk: 66%
+- Recall Low Risk: 67%
 
-2- Smote model
+2- SMOTE Oversampling
 
 ![smote_model](/Resources/smote_model.PNG)
 
+**Confusion Matrix**
 
 ![smote_model2](/Resources/smote_model2.PNG)
 
 **Comments:**
-- The results are a bit different from the previous model.
-- The balanced accuracy score is 51%.
-- The high_risk precision is about 1% only with 59% sensitivity which makes a F1 of 1% only.
-- Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 44%
+- Accuracy Score: 66.2%
+- Precision High Risk: 1%
+- Precision Low Risk: 100%
+- Recall High Risk: 66%
+- Recall Low Risk: 66%
 
 
 3- ClusterCentroids model
@@ -77,17 +81,15 @@ Due to the high number of the low_risk population, its precision is almost 100% 
 - Recall High Risk: 91%
 - Recall Low Risk: 94%
 
-
-
-
 ## Summary 
 
 
 This analysis is trying to find the best model that can detect if a loan is high risk or not. Becasue of that, we need to find a model that lets the least amount of high risk loans pass through undetected. That correlating statistic for this is the recall rate for high risk. Looking through the different models, the ones that scored the highest were:
 
-Easy Ensemble Classifying (91%)
-SMOTEENN Sampling (76%)
-Naive Random Oversampling (72%)
+- Easy Ensemble Classifying (91%)
+- SMOTEENN Sampling (76%)
+- Random Oversampling Model (72%)
+
 While this is the most important statistic that is pulled from this analysis, another important statistic is recall rate for low risk as it shows how many low risk loans are flagged as high risk. Looking through the different models, the ones that scored the highest were:
 
 Balanced Random Forest Classifying (100%)
