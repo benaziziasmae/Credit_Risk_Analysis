@@ -20,7 +20,7 @@ We adopted the following procedure:
 
 ## Results and summary 
 
-**1- Naive Random Oversampling**
+### **1- Naive Random Oversampling**
 
 ![balance_accurency_score](/Resources/balance_accurency_score.PNG)
 
@@ -36,7 +36,7 @@ We adopted the following procedure:
 - Recall High Risk: 66%
 - Recall Low Risk: 67%
 
-**2- SMOTE Oversampling**
+### **2- SMOTE Oversampling**
 
 ![smote_model](/Resources/smote_model.PNG)
 
@@ -51,7 +51,7 @@ We adopted the following procedure:
 - Recall High Risk: 62%
 - Recall Low Risk: 64%
 
-**3- Undersampling model**
+### **3- Undersampling model**
 
 ![undersampling](/Resources/undersampling.PNG)
 
@@ -67,7 +67,7 @@ We adopted the following procedure:
 - Recall Low Risk: 43%
 
 
-**4- Smoteen model**
+### **4- Smoteen model**
 
 
 ![smoteen_model](/Resources/smoteen_model.PNG)
@@ -85,7 +85,7 @@ We adopted the following procedure:
 - Recall Low Risk: 54%
 
 
-**5- Balanced Random Forest Classifying**
+### **5- Balanced Random Forest Classifying**
 
 ![balance_random_forest](/Resources/balance_random_forest.PNG)
 
@@ -101,7 +101,7 @@ We adopted the following procedure:
 
 
 
-**6- Easy Ensemble Classifying**
+### **6- Easy Ensemble Classifying**
 
 ![ensemble_model](/Resources/ensemble_model.PNG)
 
