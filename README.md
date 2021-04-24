@@ -52,6 +52,7 @@ Due to the high number of the low_risk population, its precision is almost 100% 
 ![smoteen_model](/Resources/smoteen_model.PNG)
 
 
+
 ![smoteen_model2](/Resources/smoteen_model2.PNG)
 
 **Comments:**
