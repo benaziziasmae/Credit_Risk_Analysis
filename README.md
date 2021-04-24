@@ -20,3 +20,23 @@ We adopted the following procedure:
 
 ## Results and summary 
 
+![balance_accurency_score](/Resources/balance_accurency_score.PNG)
+
+
+
+![predict_score_high_low](/Resources/predict_score_high_low.PNG)
+
+
+![smote_model](/Resources/smote_model.PNG)
+
+
+![smote_model2](/Resources/smote_model2.PNG)
+
+
+![smoteen_model](/Resources/smoteen_model.PNG)
+
+
+![smoteen_model2](/Resources/smoteen_model2.PNG)
+
+![ensemble_model](/Resources/ensemble_model.PNG)
+
